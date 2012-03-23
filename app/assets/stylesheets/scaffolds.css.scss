@@ -31,9 +31,11 @@ div {
   color: green; }
 
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table; }
+  text-align: center;
+  display: inline; 
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 24px rgba(200, 34, 34, 1);
+  outline: 0 none;
+  }
 
 #error_explanation {
   width: 450px;
@@ -43,7 +45,7 @@ div {
   margin-bottom: 20px;
   background-color: #f0f0f0;
   h2 {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
     font-size: 12px;
