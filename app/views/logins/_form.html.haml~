@@ -1,12 +1,9 @@
-%h1 Just a quick fix...
-%br
-%br
 = form_for @login do |f|
   .control-group
     = f.label :firstName, :class => 'control-label'
     .controls
       = f.text_field :firstName, :class => 'text_field'
-  .control-group
+    .control-group
     = f.label :lastName, :class => 'control-label'
     .controls
       = f.text_field :lastName, :class => 'text_field'
@@ -15,8 +12,8 @@
     .controls
       = f.text_field :email, :class => 'text_field'
   .control-group
-    = f.label :company, :class => 'control-label'
+    = f.label :'company (optional)', :class => 'control-label'
     .controls
       = f.text_field :company, :class => 'text_field'
   .form-actions
-    = f.submit 'Submit', :class => 'btn btn-primary'
+    = f.submit 'All Set', :class => 'btn btn-primary'

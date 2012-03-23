@@ -33,7 +33,7 @@ div {
 .field_with_errors {
   text-align: center;
   display: inline; 
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 30px rgba(200, 34, 34, 1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 36px rgba(200, 34, 34, 1);
   outline: 0 none;
   }
 

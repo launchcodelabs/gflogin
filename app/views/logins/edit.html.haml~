@@ -19,4 +19,4 @@
     .controls
       = f.text_field :company, :class => 'text_field'
   .form-actions
-    = f.submit 'Submit', :class => 'btn btn-primary'
+    = f.submit 'Thats more like it!', :class => 'btn btn-primary'
