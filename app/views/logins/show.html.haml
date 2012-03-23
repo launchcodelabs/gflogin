@@ -1,0 +1,12 @@
+%h2
+  = 'Thanks ' + @login.firstName + '.'
+%br
+%h3
+  = 'We got you signed in with ' + @login.email
+%br
+%br
+  = link_to 'Oops, I made a typo.', edit_login_path(@confession), :class => 'btn'
+%br
+%br
+%br
+= link_to 'Back to Sign In Page', "new", :class => 'btn btn-primary'

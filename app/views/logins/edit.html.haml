@@ -1,0 +1,23 @@
+%h1 Just a quick fix...
+%br
+%br
+
+= form_for @login do |f|
+  .control-group
+    = f.label :firstName, :class => 'control-label'
+    .controls
+      = f.text_field :firstName, :class => 'text_field'
+  .control-group
+    = f.label :lastName, :class => 'control-label'
+    .controls
+      = f.text_field :lastName, :class => 'text_field'
+  .control-group
+    = f.label :email, :class => 'control-label'
+    .controls
+      = f.text_field :email, :class => 'text_field'
+  .control-group
+    = f.label :company, :class => 'control-label'
+    .controls
+      = f.text_field :company, :class => 'text_field'
+  .form-actions
+    = f.submit 'Thats more like it!', :class => 'btn btn-primary'

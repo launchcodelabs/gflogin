@@ -1,0 +1,23 @@
+%h1 Listing logins
+
+%table
+  %tr
+    %th Firstname
+    %th Lastname
+    %th Email
+    %th
+    %th
+    %th
+
+  - @logins.each do |login|
+    %tr
+      %td= login.firstName
+      %td= login.lastName
+      %td= login.email
+      %td= link_to 'Show', login
+      %td= link_to 'Edit', edit_login_path(login)
+      %td= link_to 'Destroy', login, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Login', new_login_path
