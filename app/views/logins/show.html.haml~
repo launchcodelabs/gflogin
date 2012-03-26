@@ -15,4 +15,4 @@
 %br
 %br
 %br
-= link_to 'Next Sign In', "new", :class => 'btn btn-primary'
+= link_to 'New Sign In', "new", :class => 'btn btn-primary'
